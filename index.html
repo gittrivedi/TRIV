@@ -1,0 +1,1707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="CoFS Connect - Academic, research and student community platform for College of Fisheries Sciences.">
+
+    <title>CoFS Connect | College of Fisheries Sciences</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap"
+          rel="stylesheet">
+</head>
+
+<body>
+
+<!-- =====================================================
+     NAVIGATION
+===================================================== -->
+
+<header class="navbar">
+
+    <div class="nav-container">
+
+        <a href="#home" class="logo">
+
+            <div class="logo-icon">
+                🐟
+            </div>
+
+            <div class="logo-text">
+                <strong>CoFS</strong>
+                <span>CONNECT</span>
+            </div>
+
+        </a>
+
+
+        <nav class="nav-links">
+
+            <a href="#home">Home</a>
+
+            <a href="#academics">Academics</a>
+
+            <a href="#research">Research</a>
+
+            <a href="#groups">Groups</a>
+
+            <a href="#opportunities">Opportunities</a>
+
+            <a href="#college-life">College Life</a>
+
+            <a href="#fisheries">Fisheries</a>
+
+        </nav>
+
+
+        <div class="nav-actions">
+
+            <button class="login-btn" onclick="openLogin()">
+                Login
+            </button>
+
+            <button class="join-btn" onclick="scrollToSection('opportunities')">
+                Explore
+            </button>
+
+        </div>
+
+
+        <button class="mobile-menu"
+                onclick="toggleMobileMenu()">
+
+            ☰
+
+        </button>
+
+    </div>
+
+</header>
+
+
+<!-- =====================================================
+     MOBILE MENU
+===================================================== -->
+
+<div id="mobileMenu" class="mobile-menu-panel">
+
+    <a href="#home">Home</a>
+    <a href="#academics">Academics</a>
+    <a href="#research">Research</a>
+    <a href="#groups">Groups</a>
+    <a href="#opportunities">Opportunities</a>
+    <a href="#college-life">College Life</a>
+    <a href="#fisheries">Fisheries</a>
+
+</div>
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section id="home" class="hero">
+
+    <div class="hero-background-shape shape-one"></div>
+    <div class="hero-background-shape shape-two"></div>
+
+    <div class="hero-container">
+
+        <div class="hero-content">
+
+            <div class="announcement">
+                <span class="announcement-dot"></span>
+                Built for the CoFS student community
+            </div>
+
+
+            <h1>
+
+                Everything CoFS.
+
+                <span>
+                    Connected.
+                </span>
+
+            </h1>
+
+
+            <p class="hero-description">
+
+                A unified digital space for academic resources,
+                research opportunities, student groups, projects,
+                fisheries knowledge and campus life.
+
+            </p>
+
+
+            <div class="hero-buttons">
+
+                <button class="primary-button"
+                        onclick="scrollToSection('academics')">
+
+                    Explore Academics
+                    <span>→</span>
+
+                </button>
+
+
+                <button class="secondary-button"
+                        onclick="scrollToSection('research')">
+
+                    Discover Research
+
+                </button>
+
+            </div>
+
+
+            <div class="hero-trust">
+
+                <div class="trust-item">
+
+                    <strong>01</strong>
+
+                    <span>
+                        Academic Resources
+                    </span>
+
+                </div>
+
+
+                <div class="trust-item">
+
+                    <strong>02</strong>
+
+                    <span>
+                        Research Network
+                    </span>
+
+                </div>
+
+
+                <div class="trust-item">
+
+                    <strong>03</strong>
+
+                    <span>
+                        Student Community
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-visual">
+
+            <div class="dashboard-card">
+
+                <div class="dashboard-header">
+
+                    <div>
+
+                        <span class="small-label">
+                            STUDENT DASHBOARD
+                        </span>
+
+                        <h3>
+                            Your CoFS Hub
+                        </h3>
+
+                    </div>
+
+                    <div class="status-badge">
+                        ● Live
+                    </div>
+
+                </div>
+
+
+                <div class="dashboard-grid">
+
+                    <div class="dashboard-item blue-card">
+
+                        <span class="dashboard-icon">
+                            📚
+                        </span>
+
+                        <strong>
+                            Academics
+                        </strong>
+
+                        <small>
+                            Notes & Resources
+                        </small>
+
+                    </div>
+
+
+                    <div class="dashboard-item">
+
+                        <span class="dashboard-icon">
+                            🔬
+                        </span>
+
+                        <strong>
+                            Research
+                        </strong>
+
+                        <small>
+                            Open Opportunities
+                        </small>
+
+                    </div>
+
+
+                    <div class="dashboard-item">
+
+                        <span class="dashboard-icon">
+                            👥
+                        </span>
+
+                        <strong>
+                            Groups
+                        </strong>
+
+                        <small>
+                            Student Communities
+                        </small>
+
+                    </div>
+
+
+                    <div class="dashboard-item">
+
+                        <span class="dashboard-icon">
+                            🎓
+                        </span>
+
+                        <strong>
+                            Projects
+                        </strong>
+
+                        <small>
+                            Student Showcase
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+                <div class="dashboard-progress">
+
+                    <div class="progress-heading">
+
+                        <span>
+                            Semester Progress
+                        </span>
+
+                        <strong>
+                            68%
+                        </strong>
+
+                    </div>
+
+                    <div class="progress-bar">
+
+                        <div class="progress-fill"></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="floating-card floating-card-one">
+
+                <span class="floating-icon">
+                    🔬
+                </span>
+
+                <div>
+
+                    <strong>
+                        Research Corner
+                    </strong>
+
+                    <small>
+                        12 new opportunities
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <div class="floating-card floating-card-two">
+
+                <span class="floating-icon">
+                    📢
+                </span>
+
+                <div>
+
+                    <strong>
+                        Campus Updates
+                    </strong>
+
+                    <small>
+                        5 new announcements
+                    </small>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     STATS
+===================================================== -->
+
+<section class="stats-section">
+
+    <div class="stats-container">
+
+        <div class="stat">
+
+            <strong>
+                01
+            </strong>
+
+            <span>
+                Academic Hub
+            </span>
+
+        </div>
+
+
+        <div class="stat">
+
+            <strong>
+                02
+            </strong>
+
+            <span>
+                Research Network
+            </span>
+
+        </div>
+
+
+        <div class="stat">
+
+            <strong>
+                03
+            </strong>
+
+            <span>
+                Student Groups
+            </span>
+
+        </div>
+
+
+        <div class="stat">
+
+            <strong>
+                04
+            </strong>
+
+            <span>
+                Fisheries Knowledge
+            </span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     ACADEMICS
+===================================================== -->
+
+<section id="academics" class="section">
+
+    <div class="section-container">
+
+        <div class="section-heading">
+
+            <div>
+
+                <span class="section-label">
+                    ACADEMICS
+                </span>
+
+                <h2>
+                    Your academic life,
+                    <span>organized.</span>
+                </h2>
+
+            </div>
+
+            <p>
+                Find notes, assignments, presentations,
+                practical material and examination resources
+                in one place.
+            </p>
+
+        </div>
+
+
+        <div class="feature-grid">
+
+            <div class="feature-card">
+
+                <div class="feature-icon blue-icon">
+                    📖
+                </div>
+
+                <h3>
+                    Notes Archive
+                </h3>
+
+                <p>
+                    Access subject-wise notes and learning
+                    resources shared by students.
+                </p>
+
+                <a href="#">
+                    Browse Notes →
+                </a>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon blue-icon">
+                    📝
+                </div>
+
+                <h3>
+                    Assignments
+                </h3>
+
+                <p>
+                    Organize assignment references,
+                    practical records and useful documents.
+                </p>
+
+                <a href="#">
+                    View Assignments →
+                </a>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon blue-icon">
+                    📊
+                </div>
+
+                <h3>
+                    Presentations
+                </h3>
+
+                <p>
+                    Explore presentations and educational
+                    material created by students.
+                </p>
+
+                <a href="#">
+                    Explore Presentations →
+                </a>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon blue-icon">
+                    🎯
+                </div>
+
+                <h3>
+                    Exam Season
+                </h3>
+
+                <p>
+                    Quick access to revision material,
+                    previous questions and preparation resources.
+                </p>
+
+                <a href="#">
+                    Prepare for Exams →
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     RESEARCH
+===================================================== -->
+
+<section id="research" class="blue-section">
+
+    <div class="section-container">
+
+        <div class="section-heading white-heading">
+
+            <div>
+
+                <span class="section-label light-label">
+                    RESEARCH CORNER
+                </span>
+
+                <h2>
+                    From classroom
+                    <span>to research.</span>
+                </h2>
+
+            </div>
+
+            <p>
+                Discover research ideas, openings,
+                project opportunities and scientific resources.
+            </p>
+
+        </div>
+
+
+        <div class="research-grid">
+
+            <div class="research-main-card">
+
+                <span class="research-tag">
+                    FEATURED
+                </span>
+
+                <h3>
+                    Turn your fisheries idea
+                    into a research project.
+                </h3>
+
+                <p>
+                    Share your idea, find collaborators,
+                    discover relevant resources and explore
+                    research opportunities.
+                </p>
+
+                <button class="white-button">
+                    Submit Research Idea →
+                </button>
+
+            </div>
+
+
+            <div class="research-list">
+
+                <div class="research-item">
+
+                    <span>
+                        🔬
+                    </span>
+
+                    <div>
+
+                        <strong>
+                            Research Openings
+                        </strong>
+
+                        <p>
+                            Internships, projects and
+                            research opportunities.
+                        </p>
+
+                    </div>
+
+                    <b>
+                        →
+                    </b>
+
+                </div>
+
+
+                <div class="research-item">
+
+                    <span>
+                        💡
+                    </span>
+
+                    <div>
+
+                        <strong>
+                            Submit an Idea
+                        </strong>
+
+                        <p>
+                            Put your fisheries innovation
+                            on the board.
+                        </p>
+
+                    </div>
+
+                    <b>
+                        →
+                    </b>
+
+                </div>
+
+
+                <div class="research-item">
+
+                    <span>
+                        📄
+                    </span>
+
+                    <div>
+
+                        <strong>
+                            Research Resources
+                        </strong>
+
+                        <p>
+                            Papers, datasets and useful guides.
+                        </p>
+
+                    </div>
+
+                    <b>
+                        →
+                    </b>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     STUDENT GROUPS
+===================================================== -->
+
+<section id="groups" class="section">
+
+    <div class="section-container">
+
+        <div class="section-heading">
+
+            <div>
+
+                <span class="section-label">
+                    COMMUNITY
+                </span>
+
+                <h2>
+                    Find your
+                    <span>people.</span>
+                </h2>
+
+            </div>
+
+            <p>
+                Connect with student groups,
+                clubs and communities built around shared interests.
+            </p>
+
+        </div>
+
+
+        <div class="group-grid">
+
+            <div class="group-card">
+
+                <div class="group-number">
+                    01
+                </div>
+
+                <div class="group-icon">
+                    🐟
+                </div>
+
+                <h3>
+                    Fisheries Club
+                </h3>
+
+                <p>
+                    Discussions, fisheries knowledge
+                    and student activities.
+                </p>
+
+                <button>
+                    View Group →
+                </button>
+
+            </div>
+
+
+            <div class="group-card">
+
+                <div class="group-number">
+                    02
+                </div>
+
+                <div class="group-icon">
+                    💻
+                </div>
+
+                <h3>
+                    Innovation Club
+                </h3>
+
+                <p>
+                    Ideas, startups, technology
+                    and student innovation.
+                </p>
+
+                <button>
+                    View Group →
+                </button>
+
+            </div>
+
+
+            <div class="group-card">
+
+                <div class="group-number">
+                    03
+                </div>
+
+                <div class="group-icon">
+                    📷
+                </div>
+
+                <h3>
+                    Photography Club
+                </h3>
+
+                <p>
+                    Capture campus life and
+                    the world around fisheries.
+                </p>
+
+                <button>
+                    View Group →
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     OPPORTUNITIES
+===================================================== -->
+
+<section id="opportunities" class="opportunity-section">
+
+    <div class="section-container">
+
+        <div class="opportunity-box">
+
+            <div class="opportunity-content">
+
+                <span class="section-label">
+                    OPPORTUNITIES
+                </span>
+
+                <h2>
+                    Your next opportunity
+                    could start here.
+                </h2>
+
+                <p>
+                    Discover internships, competitions,
+                    scholarships, workshops, fellowships
+                    and student opportunities.
+                </p>
+
+                <button class="primary-button">
+                    Explore Opportunities →
+                </button>
+
+            </div>
+
+
+            <div class="opportunity-visual">
+
+                <div class="opportunity-mini-card">
+
+                    <span>
+                        🏆
+                    </span>
+
+                    <div>
+
+                        <strong>
+                            Competitions
+                        </strong>
+
+                        <small>
+                            Hackathons & Challenges
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+                <div class="opportunity-mini-card">
+
+                    <span>
+                        🎓
+                    </span>
+
+                    <div>
+
+                        <strong>
+                            Scholarships
+                        </strong>
+
+                        <small>
+                            Funding opportunities
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+                <div class="opportunity-mini-card">
+
+                    <span>
+                        🌐
+                    </span>
+
+                    <div>
+
+                        <strong>
+                            Internships
+                        </strong>
+
+                        <small>
+                            Industry & Research
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     COLLEGE LIFE
+===================================================== -->
+
+<section id="college-life" class="section">
+
+    <div class="section-container">
+
+        <div class="section-heading">
+
+            <div>
+
+                <span class="section-label">
+                    COLLEGE LIFE
+                </span>
+
+                <h2>
+                    More than
+                    <span>academics.</span>
+                </h2>
+
+            </div>
+
+            <p>
+                Share experiences, events, memories,
+                activities and stories from college life.
+            </p>
+
+        </div>
+
+
+        <div class="life-grid">
+
+            <div class="life-card large-life-card">
+
+                <div class="life-placeholder">
+                    📸
+                </div>
+
+                <div class="life-content">
+
+                    <span>
+                        CAMPUS
+                    </span>
+
+                    <h3>
+                        Moments from CoFS
+                    </h3>
+
+                    <p>
+                        Explore student activities,
+                        events and everyday campus moments.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="life-card">
+
+                <div class="life-placeholder">
+                    🎉
+                </div>
+
+                <div class="life-content">
+
+                    <span>
+                        EVENTS
+                    </span>
+
+                    <h3>
+                        Events & Activities
+                    </h3>
+
+                    <p>
+                        Keep track of campus events.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="life-card">
+
+                <div class="life-placeholder">
+                    🚶
+                </div>
+
+                <div class="life-content">
+
+                    <span>
+                        EXPERIENCES
+                    </span>
+
+                    <h3>
+                        Field Visits
+                    </h3>
+
+                    <p>
+                        Student field experiences and trips.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     FISHERIES CORNER
+===================================================== -->
+
+<section id="fisheries" class="fisheries-section">
+
+    <div class="section-container">
+
+        <div class="fisheries-header">
+
+            <div>
+
+                <span class="section-label">
+                    FISHERIES CORNER
+                </span>
+
+                <h2>
+                    Explore the
+                    <span>aquatic world.</span>
+                </h2>
+
+            </div>
+
+            <p>
+                A knowledge corner for species,
+                aquaculture systems, fish health,
+                processing and fisheries science.
+            </p>
+
+        </div>
+
+
+        <div class="fish-grid">
+
+            <div class="fish-card">
+
+                <div class="fish-emoji">
+                    🐟
+                </div>
+
+                <h3>
+                    Fish Species
+                </h3>
+
+                <p>
+                    Species profiles, identification
+                    and biology.
+                </p>
+
+                <a href="#">
+                    Explore →
+                </a>
+
+            </div>
+
+
+            <div class="fish-card">
+
+                <div class="fish-emoji">
+                    🌊
+                </div>
+
+                <h3>
+                    Aquaculture
+                </h3>
+
+                <p>
+                    Culture systems and
+                    production practices.
+                </p>
+
+                <a href="#">
+                    Explore →
+                </a>
+
+            </div>
+
+
+            <div class="fish-card">
+
+                <div class="fish-emoji">
+                    🧪
+                </div>
+
+                <h3>
+                    Fish Health
+                </h3>
+
+                <p>
+                    Diseases, diagnostics and
+                    aquatic health resources.
+                </p>
+
+                <a href="#">
+                    Explore →
+                </a>
+
+            </div>
+
+
+            <div class="fish-card">
+
+                <div class="fish-emoji">
+                    🍽️
+                </div>
+
+                <h3>
+                    Fish Processing
+                </h3>
+
+                <p>
+                    Value addition and
+                    seafood processing.
+                </p>
+
+                <a href="#">
+                    Explore →
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     PROJECT SHOWCASE
+===================================================== -->
+
+<section class="section">
+
+    <div class="section-container">
+
+        <div class="section-heading">
+
+            <div>
+
+                <span class="section-label">
+                    PROJECT SHOWCASE
+                </span>
+
+                <h2>
+                    Student ideas,
+                    <span>made visible.</span>
+                </h2>
+
+            </div>
+
+            <p>
+                Showcase research projects,
+                innovations, presentations and models.
+            </p>
+
+        </div>
+
+
+        <div class="project-grid">
+
+            <div class="project-card">
+
+                <div class="project-number">
+                    01
+                </div>
+
+                <span>
+                    INNOVATION
+                </span>
+
+                <h3>
+                    Student Innovation Project
+                </h3>
+
+                <p>
+                    A place to showcase fisheries
+                    technology and innovative solutions.
+                </p>
+
+                <a href="#">
+                    View Project →
+                </a>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-number">
+                    02
+                </div>
+
+                <span>
+                    RESEARCH
+                </span>
+
+                <h3>
+                    Undergraduate Research
+                </h3>
+
+                <p>
+                    Present your research work,
+                    findings and scientific ideas.
+                </p>
+
+                <a href="#">
+                    View Project →
+                </a>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-number">
+                    03
+                </div>
+
+                <span>
+                    PRESENTATION
+                </span>
+
+                <h3>
+                    Academic Presentation
+                </h3>
+
+                <p>
+                    Share educational presentations
+                    with the wider student community.
+                </p>
+
+                <a href="#">
+                    View Project →
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     JALJEEV
+===================================================== -->
+
+<section class="jaljeev-section">
+
+    <div class="section-container">
+
+        <div class="jaljeev-box">
+
+            <div class="jaljeev-content">
+
+                <span class="jaljeev-label">
+                    BEYOND THE CLASSROOM
+                </span>
+
+                <h2>
+                    Discover
+                    <span>JalJeev.</span>
+                </h2>
+
+                <p>
+                    Explore fisheries innovation,
+                    student entrepreneurship and
+                    ideas that connect science with
+                    real-world aquaculture.
+                </p>
+
+                <button class="primary-button">
+                    Explore JalJeev →
+                </button>
+
+            </div>
+
+
+            <div class="jaljeev-mark">
+
+                <div class="water-circle">
+
+                    <span>
+                        🌊
+                    </span>
+
+                </div>
+
+                <strong>
+                    JALJEEV
+                </strong>
+
+                <small>
+                    Fisheries Innovation
+                </small>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     UPLOAD CTA
+===================================================== -->
+
+<section class="upload-section">
+
+    <div class="upload-container">
+
+        <div class="upload-icon">
+            ↑
+        </div>
+
+        <h2>
+            Have something useful to share?
+        </h2>
+
+        <p>
+            Upload notes, presentations, projects,
+            opportunities or useful academic resources.
+        </p>
+
+        <button class="primary-button"
+                onclick="openUpload()">
+
+            Upload Resource →
+
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-brand">
+
+            <div class="logo footer-logo">
+
+                <div class="logo-icon">
+                    🐟
+                </div>
+
+                <div class="logo-text">
+                    <strong>CoFS</strong>
+                    <span>CONNECT</span>
+                </div>
+
+            </div>
+
+            <p>
+                A digital community platform
+                for students of fisheries sciences.
+            </p>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>
+                Explore
+            </h4>
+
+            <a href="#academics">
+                Academics
+            </a>
+
+            <a href="#research">
+                Research
+            </a>
+
+            <a href="#groups">
+                Student Groups
+            </a>
+
+            <a href="#opportunities">
+                Opportunities
+            </a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>
+                Resources
+            </h4>
+
+            <a href="#">
+                Notes
+            </a>
+
+            <a href="#">
+                Assignments
+            </a>
+
+            <a href="#">
+                Presentations
+            </a>
+
+            <a href="#">
+                Fisheries Corner
+            </a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>
+                Community
+            </h4>
+
+            <a href="#">
+                College Life
+            </a>
+
+            <a href="#">
+                Projects
+            </a>
+
+            <a href="#">
+                Upload
+            </a>
+
+            <a href="#">
+                Ask a Senior
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <span>
+            © 2026 CoFS Connect
+        </span>
+
+        <span>
+            Built for learning • research • community
+        </span>
+
+    </div>
+
+</footer>
+
+
+<!-- =====================================================
+     LOGIN MODAL
+===================================================== -->
+
+<div id="loginModal" class="modal">
+
+    <div class="modal-box">
+
+        <button class="modal-close"
+                onclick="closeLogin()">
+            ×
+        </button>
+
+        <div class="modal-icon">
+            🐟
+        </div>
+
+        <h2>
+            Welcome to CoFS Connect
+        </h2>
+
+        <p>
+            Sign in using your CoFS roll number.
+        </p>
+
+
+        <form onsubmit="loginUser(event)">
+
+            <label>
+                Roll Number
+            </label>
+
+            <input
+                id="rollNumber"
+                type="text"
+                placeholder="Example: COFS2025001"
+                required
+            >
+
+
+            <label>
+                Password
+            </label>
+
+            <input
+                type="password"
+                placeholder="Enter password"
+                required
+            >
+
+
+            <button class="primary-button full-button"
+                    type="submit">
+
+                Login
+
+            </button>
+
+        </form>
+
+        <p id="loginMessage"
+           class="form-message">
+        </p>
+
+    </div>
+
+</div>
+
+
+<!-- =====================================================
+     UPLOAD MODAL
+===================================================== -->
+
+<div id="uploadModal" class="modal">
+
+    <div class="modal-box upload-modal">
+
+        <button class="modal-close"
+                onclick="closeUpload()">
+            ×
+        </button>
+
+        <div class="modal-icon">
+            ↑
+        </div>
+
+        <h2>
+            Share a Resource
+        </h2>
+
+        <p>
+            Submit useful material for the CoFS community.
+        </p>
+
+
+        <form onsubmit="submitUpload(event)">
+
+            <label>
+                Resource Title
+            </label>
+
+            <input
+                type="text"
+                placeholder="Enter title"
+                required
+            >
+
+
+            <label>
+                Category
+            </label>
+
+            <select required>
+
+                <option value="">
+                    Select category
+                </option>
+
+                <option>
+                    Notes
+                </option>
+
+                <option>
+                    Assignment
+                </option>
+
+                <option>
+                    Presentation
+                </option>
+
+                <option>
+                    Research
+                </option>
+
+                <option>
+                    Opportunity
+                </option>
+
+                <option>
+                    Project
+                </option>
+
+            </select>
+
+
+            <label>
+                Description
+            </label>
+
+            <textarea
+                placeholder="Describe the resource..."
+                rows="4">
+            </textarea>
+
+
+            <label>
+                Upload File
+            </label>
+
+            <input
+                type="file"
+                id="resourceFile"
+                required
+            >
+
+
+            <button class="primary-button full-button"
+                    type="submit">
+
+                Submit Resource
+
+            </button>
+
+        </form>
+
+
+        <p id="uploadMessage"
+           class="form-message">
+        </p>
+
+    </div>
+
+</div>
+
+
+<!-- =====================================================
+     JAVASCRIPT
+===================================================== -->
+
+<script src="app.js"></script>
+
+</body>
+</html>
